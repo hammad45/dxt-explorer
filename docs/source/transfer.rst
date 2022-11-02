@@ -1,4 +1,4 @@
-Operation Plot
+Transfer Plot
 ===================================
 
 Once you have the dependencies and DXT Explorer installed, you can run:
