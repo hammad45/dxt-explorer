@@ -9,7 +9,7 @@ DXT Explorer is an interactive web-based log analysis tool to visualize Darshan 
 
    building
    exploring
-   exploring copy
+   new
 
 .. toctree::
    :maxdepth: 2
