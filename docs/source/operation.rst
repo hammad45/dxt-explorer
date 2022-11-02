@@ -20,8 +20,8 @@ You are expected to visualize the following messages in the console:
    2022-11-02 12:58:22,979 dxt - INFO - FILE: <Filename> (ID <File ID>)
    2022-11-02 12:58:22,979 dxt - INFO - generating dataframes
    2022-11-02 12:58:26,681 dxt - INFO - generating interactive operation for: <Filename>
-   2022-11-02 12:58:30,826 dxt - INFO - SUCCESS: <Path to the newly created Operation.html>
-   2022-11-02 12:58:30,834 dxt - INFO - SUCCESS: <Path to the newly created Index.html>
+   2022-11-02 12:58:30,826 dxt - INFO - SUCCESS: <Path to the newly created operation.html>
+   2022-11-02 12:58:30,834 dxt - INFO - SUCCESS: <Path to the newly created index.html>
    2022-11-02 12:58:30,834 dxt - INFO - You can open the index.html file in your browser to interactively explore all plots
 
 You can find a couple of interactive examples of DXT traces collected from FLASH, E2E, and OpenPMD in the `companion repository <https://jeanbez.gitlab.io/pdsw-2021>`_ for our PDSW'21 paper.
