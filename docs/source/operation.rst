@@ -8,7 +8,7 @@ Once you have the dependencies and DXT Explorer installed, you can run:
    dxt-explorer DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
 
 .. image:: _static/images/operation.png
-  :width: 400
+  :width: 800
   :alt: Operation Plot
 
 This will generate the base ``operation.html`` plot. The ``operation.html`` plot shows the read and write operations performed by each rank throughout the runtime of the application. Contextual information link ``Rank``, ``Operation``, ``Duration``, ``Size``, ``Offset``, ``Lustre OST`` can also be seen by hovering over a request. 
