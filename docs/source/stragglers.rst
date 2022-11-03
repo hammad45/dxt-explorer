@@ -5,13 +5,13 @@ Once you have the dependencies and DXT Explorer installed, you can run:
 
 .. code-block:: bash
 
-   dxt-explorer -s DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
+   dxt-explorer --stragglers DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
 
-.. image:: _static/images/spatiality.png
+.. image:: _static/images/dxt-explorer-stragglers-zoom.png
   :width: 800
-  :alt: Spatiality Plot
+  :alt: Stragglers Plot
 
-This will generate the base ``spatiality.html`` plot. The ``spatiality.html`` plot shows the spatiality of the accesses in file made by each rank. Contextual information link ``Rank``, ``Operation``, ``Duration``, ``Size``, ``Offset``, ``Lustre OST`` can also be seen by hovering over a request. 
+This will generate the base ``operation.html`` plot. On the right of the ``operation.html`` plot, a dropdown menu will be displayed which will have an option to display ``stragglers``, if that bottleneck exists. Upon clicking that button, the stragglers will be highlighted on the graph. Contextual information link ``Fastest Rank``, ``Fastest Rank Duration``, ``Slowest Rank``, ``Slowest Rank Duration`` can also be seen by hovering over a request. 
 
 You are expected to visualize the following messages in the console:
 

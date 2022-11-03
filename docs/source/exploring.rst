@@ -30,7 +30,13 @@ Once you have the dependencies and DXT Explorer installed, you can run:
      --to END_RANK         Report up to rank M
      --browser             Open the browser with the generated plot
 
-DXT Explorer will generate by default an ``index.html`` file with links to all interactive plots that you can open in any browser to explore. If you enabled the transfer or spatiality plots, additional ``.html`` files will be generated, one for each type and the link to those html files will be provided in the ``index.html`` file. You are expected to visualize the following messages in the console:
+DXT Explorer will generate by default an ``index.html`` file with links to all interactive plots that you can open in any browser to explore. If you enabled the transfer or spatiality plots, additional ``.html`` files will be generated, one for each type and the link to those html files will be provided in the ``index.html`` file. 
+
+.. image:: _static/images/dxt-index.png
+  :width: 800
+  :alt: Index Page
+
+You are expected to visualize the following messages in the console:
 
 .. code-block:: text
 
