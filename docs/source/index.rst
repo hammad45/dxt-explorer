@@ -16,6 +16,8 @@ DXT Explorer is an interactive web-based log analysis tool to visualize Darshan 
    unbalanced-ranks
    stragglers
    iophase
+   ost-usage-operation
+   ost-usage-transfer
 
 .. toctree::
    :maxdepth: 2
