@@ -13,6 +13,8 @@ Once you have the dependencies and DXT Explorer installed, you can run:
 
 This will generate the ``ost-usage-transfer.html`` plot. The ``ost-usage-transfer.html`` plot shows the data transferred by each OST server for read and write operations throughout the runtime of the application.
 
+``Warning``: This plot will only be generated if the application was exectued on Lustre File System and Darshan collected those metrics. 
+
 You are expected to visualize the following messages in the console:
 
 .. code-block:: text
@@ -23,6 +25,4 @@ You are expected to visualize the following messages in the console:
    2022-11-02 12:58:30,826 dxt - INFO - SUCCESS: <Path to the newly created operation.html>
    2022-11-02 12:58:30,834 dxt - INFO - SUCCESS: <Path to the newly created index.html>
    2022-11-02 12:58:30,834 dxt - INFO - You can open the index.html file in your browser to interactively explore all plots
-
-You can find a couple of interactive examples of DXT traces collected from FLASH, E2E, and OpenPMD in the `companion repository <https://jeanbez.gitlab.io/pdsw-2021>`_ for our PDSW'21 paper.
 

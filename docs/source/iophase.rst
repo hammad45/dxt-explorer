@@ -9,9 +9,9 @@ Once you have the dependencies and DXT Explorer installed, you can run:
 
 .. image:: _static/images/dxt-explorer-io-phases.png
   :width: 800
-  :alt: IO Phase Plot
+  :alt: I/O Phase Plot
 
-This will generate the base ``io-phase.html`` plot. The ``io-phase.html`` plot shows the different IO Phases in the data. The plot also shows information regarding the number of I/O phases in each interface (``MPIIO and POSIX``) and the threshold value used to merge the phases.  Contextual information link ``Fastest Rank``, ``Fastest Rank Duration``, ``Slowest Rank``, ``Slowest Rank Duration`` can also be seen by hovering over a phase. 
+This will generate the base ``io-phase.html`` plot. The ``io-phase.html`` plot shows the different I/O Phases in the data. The plot also shows information regarding the number of I/O phases in each interface (``MPIIO and POSIX``) and the threshold value used to merge the phases. The threshold value is computed by summing the mean and standard deviation of all the intervals between the I/O phases. Contextual information link ``Fastest Rank``, ``Fastest Rank Duration``, ``Slowest Rank``, ``Slowest Rank Duration`` can also be seen by hovering over a phase. 
 
 You are expected to visualize the following messages in the console:
 
@@ -23,6 +23,3 @@ You are expected to visualize the following messages in the console:
    2022-11-02 12:58:30,826 dxt - INFO - SUCCESS: <Path to the newly created spatiality.html>
    2022-11-02 12:58:30,834 dxt - INFO - SUCCESS: <Path to the newly created index.html>
    2022-11-02 12:58:30,834 dxt - INFO - You can open the index.html file in your browser to interactively explore all plots
-
-You can find a couple of interactive examples of DXT traces collected from FLASH, E2E, and OpenPMD in the `companion repository <https://jeanbez.gitlab.io/pdsw-2021>`_ for our PDSW'21 paper.
-

@@ -11,7 +11,7 @@ Once you have the dependencies and DXT Explorer installed, you can run:
   :width: 800
   :alt: Transfer Plot
 
-This will generate the ``transfer.html`` plot. The ``transfer.html`` plot shows the amount of data transferred by read and write operations of each rank throughout the runtime of the application. Contextual information link ``Rank``, ``Operation``, ``Duration``, ``Size``, ``Offset``, ``Lustre OST`` can also be seen by hovering over a request. 
+This will generate the ``transfer.html`` plot. The ``transfer.html`` plot shows the amount of data transferred by read and write requests of each rank throughout the runtime of the application. The request sizes are coloured in the plot based on the bin sizes used in Darshan, but the absolute value, if available, can be seen by hovering over a request. Contextual information link ``Rank``, ``Operation``, ``Duration``, ``Size``, ``Offset``, ``Lustre OST`` can also be seen by hovering over a request. 
 
 You are expected to visualize the following messages in the console:
 
