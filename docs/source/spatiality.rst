@@ -11,7 +11,7 @@ Once you have the dependencies and DXT Explorer installed, you can run:
   :width: 800
   :alt: Spatiality Plot
 
-This will generate the base ``spatiality.html`` plot. ``Spatiality`` refers to the files offsets between consecutive I/O accesses. Typical spatial access patterns are contiguous, strided, or random. The ``spatiality.html`` plot shows the spatiality of the accesses in file made by each rank. Contextual information link ``Rank``, ``Operation``, ``Duration``, ``Size``, ``Offset``, ``Lustre OST`` can also be seen by hovering over a request. 
+This will generate the base ``spatiality.html`` plot. Spatiality refers to the file offsets between consecutive I/O accesses. Typical spatial access patterns are contiguous, strided, or random. The ``spatiality.html`` plot shows the spatiality of the accesses in file made by each rank. Contextual information link ``Rank``, ``Operation``, ``Duration``, ``Size``, ``Offset``, ``Lustre OST`` can also be seen by hovering over a request. 
 
 You are expected to visualize the following messages in the console:
 

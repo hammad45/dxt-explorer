@@ -1,4 +1,4 @@
-IO Phase Plot
+I/O Phase Plot
 ===================================
 
 Once you have the dependencies and DXT Explorer installed, you can run:

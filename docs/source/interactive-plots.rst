@@ -7,9 +7,9 @@ Once you have the dependencies and DXT Explorer installed, you can run:
 
    dxt-explorer -u DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
 
-.. image:: _static/images/dxt-explorer-sample-unbalanced-workload.png
-  :width: 800
-  :alt: Unbalanced Workload Plot
+.. button::
+   :text: Button Text
+   :link: https://jeanbez.gitlab.io/pdsw-2021/interactive/summit/flash-original/explore.html
 
 This will generate the base ``operation.html`` plot. On the right of the ``operation.html`` plot, a dropdown menu will be displayed which will have an option to display ``unbalanced workload``, if that bottleneck exists. Upon clicking that button, the unbalanced ranks will be highlighted on the graph with the other operations in the background in an opaque color. Contextual information link ``Rank``, ``Operation``, ``Duration``, ``Size``, ``Offset``, ``Lustre OST`` can also be seen by hovering over a request. 
 

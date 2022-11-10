@@ -5,7 +5,7 @@ Once you have the dependencies and DXT Explorer installed, you can run:
 
 .. code-block:: bash
 
-   dxt-explorer --stragglers DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
+   dxt-explorer -st DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
 
 .. image:: _static/images/dxt-explorer-stragglers-zoom.png
   :width: 800

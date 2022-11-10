@@ -5,7 +5,7 @@ Once you have the dependencies and DXT Explorer installed, you can run:
 
 .. code-block:: bash
 
-   dxt-explorer --rank_zero_workload DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
+   dxt-explorer -r DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
 
 .. image:: _static/images/operation.png
   :width: 800

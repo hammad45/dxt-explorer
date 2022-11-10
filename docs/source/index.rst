@@ -8,6 +8,7 @@ DXT Explorer is an interactive web-based log analysis tool to visualize Darshan 
    :caption: Getting Started
 
    building
+   interactive-plots
    exploring
    operation
    transfer

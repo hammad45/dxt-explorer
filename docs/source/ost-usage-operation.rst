@@ -5,7 +5,7 @@ Once you have the dependencies and DXT Explorer installed, you can run:
 
 .. code-block:: bash
 
-   dxt-explorer --ost_usage_operation DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
+   dxt-explorer -oo DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
 
 .. image:: _static/images/base-ost-usage-over-time.png
   :width: 800
