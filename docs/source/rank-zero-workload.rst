@@ -7,7 +7,7 @@ Once you have the dependencies and DXT Explorer installed, you can run:
 
    dxt-explorer -r DARSHAN_FILE_COLLECTED_WITH_DXT_ENABLE.darshan
 
-.. image:: _static/images/operation.png
+.. image:: _static/images/rank-zero.png
   :width: 800
   :alt: Rank Zero Workload Plot
 
